@@ -1,0 +1,29 @@
+# Core Django
+Django
+#djangorestframework
+#django-cors-headers
+
+# Database
+#psycopg2-binary  # for local dev
+# Note: PythonAnywhere uses MySQL by default, add: mysqlclient
+
+# Environment
+python-dotenv
+
+# OpenAI Integration
+#openai
+
+# Task Queue (for background processing)
+# celery==5.3.4
+# redis==5.0.1
+
+# PWA Features
+#django-pwa==1.0.12
+
+# Security & Encryption
+cryptography
+
+# Utilities
+requests==2.31.0
+# whitenoise==6.5.0  # for static files
+# gunicorn==21.2.0   # for production WSGI
